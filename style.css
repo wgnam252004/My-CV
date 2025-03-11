@@ -72,9 +72,52 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
-
 .showcase img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+/* Contact Form Styling */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #FBFBFB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#contactForm label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#contactForm textarea {
+    height: 120px;
+    resize: none;
+}
+#contactForm button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#contactForm button:hover {
+    background: #45a049;
 }
